@@ -1,0 +1,12 @@
+<?php
+
+if(isset($_POST['subje']))
+	{
+		$subje=$_POST['subje'];
+		
+	}
+
+
+
+
+?>

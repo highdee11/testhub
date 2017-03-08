@@ -1,0 +1,381 @@
+body,h1,h2,div,span,h4,h3,h5
+{
+	margin:0;
+	padding:0;
+}
+body
+{
+	margin:opx;
+	padding:0px;
+	#background-image:url(bkgrd1.jpg);
+    background-repeat:no-repeat;
+	background-size:cover;
+		
+}
+#hg
+{
+	background-color:#263238;
+	width:1366px;
+	height:70px;
+	color:white;
+	padding:0;
+}
+
+#page_title
+{
+	
+	margin-top:10px;
+	margin-left:450px;
+}
+#hg h1
+{
+	padding:10px 10px 20px 20px;
+}
+#container
+{
+	margin:0;
+	padding:0;
+	
+}
+#menu
+{
+	padding-top:10px;
+	background-color:#263238;
+	width:1366px;
+	height:50px;
+}
+#menu ul li
+{
+	margin:0 auto;
+	
+	list-style-type:none;
+	float:left;
+    
+}
+#menu ul li a
+{
+	text-decoration:none;
+	text-align:center;
+	display:block;
+	background-color:gray;
+	
+	margin-right:15px;
+	
+	width:100px;
+	color:white;
+	height:30px;
+	border-radius:7px;
+}
+#menu ul li a:hover
+{
+	background-color:rgb(239,92,88);
+}
+
+
+
+
+
+.form
+{
+	padding:50px 500px 50px 500px;
+	
+	background-color:#263238;
+}
+#block
+{
+		margin-left:30px;
+		margin-top:100px;
+		
+
+}
+#block a
+{
+	margin-left:10px;
+	float:left;	
+	display:block;
+	width:150px;
+	height:150px;
+	background-color:#263238;
+	color:white;
+	text-align:center;
+	text-decoration:none;
+	font-size:40px;
+}
+
+#block a:hover
+{
+	background-color:#455a64;
+}
+#block_subj
+{
+	background-color:gray;
+	width:650px;
+	height:100%;
+	margin-top:100px;
+	margin-left:20px;
+	
+}
+#block_subj a
+{
+	display:block;
+	background-color:rgb(239,92,88);
+	text-decoration:none;
+	width:600px;
+	height:25px;
+    padding-left:20px;
+	margin-left:10px;
+	color:white;
+	border-radius:10px;
+}
+
+
+#block_set
+{
+	background-color:gray;
+	width:650px;
+	height:100%;
+	margin-top:100px;
+	margin-left:20px;
+	
+}
+#block_set a
+{
+	display:block;
+	background-color:rgb(239,92,88);
+	text-decoration:none;
+	width:600px;
+	height:25px;
+    padding-left:20px;
+	margin-left:10px;
+	color:white;
+	border-radius:10px;
+}
+
+#start_quiz
+{
+    padding-top:20px;
+	margin-left:550px;
+	background-color:#263238;
+	width:100px;
+	height:50px;
+	
+}	
+#start_quiz a
+{
+	margin-top:10px;
+	margin-left:25px;
+	color:white;
+	text-align:center;
+	background-color:rgb(239,92,88);
+	width:150px;
+	height:20px;
+	border-radius:3px;
+	text-decoration:none;
+	
+	
+}
+
+
+#set a
+{
+	display:block;
+	width:150px;
+	height:150px;
+	background-color:#263238;
+	color:white;
+	text-align:center;
+	text-decoration:none;
+	font-size:40px;
+}
+#set a:hover
+{ 
+	background-color:#b0bec5;
+}
+
+#user_icon 
+{
+	
+	margin-right:5px;
+	margin-top:2px;
+	float:right;
+	background-color:rgb(192,192,200);
+	font-size:15px;
+}
+#user_icon edit
+{
+	
+}
+#user_icon edit a
+{
+	
+	display:block;
+	width:100px;
+	text-align:center;
+	background-color:rgb(239,92,88);
+	color:white;
+	text-decoration:none;
+	color:white;
+
+}
+#user_icon edithome a
+{
+
+	display:block;
+	width:80px;
+	border-radius:4px;
+	background-color:rgb(239,92,88);
+	color:white;
+	text-decoration:none;
+	color:white;
+
+}
+#main_text
+{
+	margin-top:40px;
+	margin-left:100px;
+	width:1000px;
+	height:500px;
+	background-color:white;
+	
+}
+#questions_modules
+{
+	margin-right:20px;
+float:right;
+display:block;
+width:200px;
+height:400px;
+border:2px solid black;	
+padding-left:5px;
+padding-top:5px;
+	
+}
+
+#questions_modules  li{
+	
+	float:left;
+	list-style-type:none;
+	
+	
+   text-align:center;
+	
+	
+}
+#questions_modules a
+{
+	display:block;
+	height:20px;
+	width:14px;
+    margin-left:3px;
+	border:1px solid black;
+	text-decoration:none;
+}
+#student_edit
+{
+	margin-left:200px;
+	margin-top:50px;
+	width:500px;
+	height:700px;
+	color:white;
+
+	background-color:gray;
+	border-radius:10px;
+	
+}
+#student_edit img
+{
+	margin-left:120px;
+	margin-top:10px;
+	border-radius:70px;
+}
+#student_edit label
+{
+	padding-left:20px;
+	padding-top:10px;
+}
+#input
+{
+	padding-left:90px;
+}
+
+#update
+{
+	margin-left:120px;
+	width:120px;
+}
+
+#login_form
+{
+	margin-left:500px;
+	margin-top:230px;
+	background-color:rgb(239,92,88);
+	width:300px;
+	height:300px;
+	border-radius:10px;
+}
+#create_account
+{
+	margin-left:30px;
+	color:white;
+	text-decoration:none;
+	width:100px;
+	height:100px;
+	background-color:#263238;
+}
+#login_form form
+{
+	
+	padding-top:60px;
+}
+#login_form h3
+{
+	padding-top:20px;
+	padding-left:43px;
+	color:white;
+	font-size:30px;
+}
+
+#login_form h5
+{
+	margin-left:50px;
+	padding-top:10px;
+}
+#text_field
+{
+	margin-top:5px;
+	margin-left:50px;
+	width:200px;
+	
+	padding-left:10px;
+
+	height:25px;
+}
+#login_button
+{
+	margin-top:10px;
+	margin-bottom:30px;
+	margin-left:120px;
+	width:70px;
+	height:25px;
+	color:white;
+	
+}
+
+
+
+#footer
+{
+	padding-top:20px;
+	padding-left:10px;
+	color:white;
+	height:50px;
+	background-color:#263238;
+	width:100%;
+	margin-top:500px;
+}
+#footer a 
+{
+	margin-left:20px;
+	text-decoration:none;
+	color:white;
+}

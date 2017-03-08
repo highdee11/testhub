@@ -1,0 +1,39 @@
+<form  class='fom' action='staff_quiz.php?pgst_id=2&addq=1&sbj=<?php  ?>&id=<?php ?>' method='POST'>
+													Select set:<select name='set_select' required>
+																<?php 
+																
+																$id=$res['id'];
+																$result=mysqli_query($connection,"SELECT *FROM $setname WHERE id=$id");
+																$res=mysqli_fetch_array($result);
+																$sbj=$res['subject'];
+																			 $sjt=request_set($sbj);
+																			// getting the selection for question set.
+																			while($subjects=mysqli_fetch_array($sjt))
+																			{echo $qid."12";?>
+																				<option value="<?php echo $subjects['question_set'];?>"><?php echo $subjects['question_set'];?> </option>
+															  <?php			 }
+																?>
+																</select>
+																	<textarea name="question" rows="5" cols="50" value="<?php echo $res['question'];?>"><?php echo $res['question'];?></textarea>
+																<br/>
+																	 Option A:<input type="text" name="option1" size="45" value="<?php echo $res['option1'] ;?>"/>
+																<br/>
+																	 Option B:<input type="text" name="option2" size="45" value="<?php echo $res['option2'] ;?>"/>
+																<br/>
+																	 Option C:<input type="text" name="option3" size="45" value="<?php echo $res['option3'] ;?>"/>
+																<br/>
+																	 Option D:<input type="text" name="option4" size="45" value="<?php echo $res['option4'] ;?>"/>
+																<br/>	 Answer:<select name="ans" >
+																		<option value="0" <?php if($res['answer']==0){ echo "selected";}?> ></option>
+																		<option value="1" <?php if($res['answer']==1){ echo "selected";}?>>A</option>
+																		<option value="2" <?php if($res['answer']==2){ echo "selected";}?>>B</option>
+																		<option value="3" <?php if($res['answer']==3){ echo "selected";}?>>C</option>
+																		<option value="4" <?php if($res['answer']==4){ echo "selected";}?>>D</option>
+																		</select>
+																  <input type="submit" name="update_question" value="submit">
+															
+																		<a href="staff_quiz.php?pgst_id=2&delquestion=<?php echo urlencode($id);?>">Delete</a>
+																										
+																										
+												
+												</form>
